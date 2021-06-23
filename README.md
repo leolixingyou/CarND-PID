@@ -161,11 +161,3 @@ After each run of the 600-point loop, the PID error is updated to make the twidd
 ![](https://i.imgur.com/8AYhz2L.png)
 
 The result of twiddle turning is {0.155, 0.0011, 1.691}
-
-## Discussion ##
-
-1. The less tolerance is set, the more simulator loops are needed and the more time is required. Considering the time factor, I didn't set the tolerance to 0.1, which could be lower than 0.001, but udacity's GPU doesn't have enough usable time. Is there any way to save time？
-
-2. In the future, the speed can also be added to PID control.
-# CarND-PID-Control
-# CarND-PID-Control
